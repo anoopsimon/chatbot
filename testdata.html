@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Registration Page - 25 Questions</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form id="registrationForm">
+
+        <label for="q1">1. First Name:</label>
+        <input type="text" id="q1" name="firstName" /><br/><br/>
+
+        <label for="q2">2. Last Name:</label>
+        <input type="text" id="q2" name="lastName" /><br/><br/>
+
+        <label for="q3">3. Email:</label>
+        <input type="email" id="q3" name="email" /><br/><br/>
+
+        <label for="q4">4. Password:</label>
+        <input type="password" id="q4" name="password" /><br/><br/>
+
+        <label for="q5">5. Confirm Password:</label>
+        <input type="password" id="q5" name="confirmPassword" /><br/><br/>
+
+        <label for="q6">6. Date of Birth:</label>
+        <input type="date" id="q6" name="dob" /><br/><br/>
+
+        <label for="q7">7. Gender:</label>
+        <select id="q7" name="gender">
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br/><br/>
+
+        <label for="q8">8. Phone Number:</label>
+        <input type="tel" id="q8" name="phone" /><br/><br/>
+
+        <label for="q9">9. Address Line 1:</label>
+        <input type="text" id="q9" name="address1" /><br/><br/>
+
+        <label for="q10">10. Address Line 2:</label>
+        <input type="text" id="q10" name="address2" /><br/><br/>
+
+        <label for="q11">11. City:</label>
+        <input type="text" id="q11" name="city" /><br/><br/>
+
+        <label for="q12">12. State/Province:</label>
+        <input type="text" id="q12" name="state" /><br/><br/>
+
+        <label for="q13">13. Postal/Zip Code:</label>
+        <input type="text" id="q13" name="zip" /><br/><br/>
+
+        <label for="q14">14. Country:</label>
+        <select id="q14" name="country">
+            <option value="">Select</option>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+            <option value="other">Other</option>
+        </select><br/><br/>
+
+        <label for="q15">15. Preferred Contact Method:</label><br/>
+        <input type="radio" id="q15_email" name="contactMethod" value="email" />
+        <label for="q15_email">Email</label><br/>
+        <input type="radio" id="q15_phone" name="contactMethod" value="phone" />
+        <label for="q15_phone">Phone</label><br/><br/>
+
+        <label for="q16">16. Subscribe to newsletter:</label>
+        <input type="checkbox" id="q16" name="newsletter" /><br/><br/>
+
+        <label for="q17">17. Username:</label>
+        <input type="text" id="q17" name="username" /><br/><br/>
+
+        <label for="q18">18. Security Question:</label>
+        <select id="q18" name="securityQuestion">
+            <option value="">Select</option>
+            <option value="pet">What is your pet's name?</option>
+            <option value="school">What was your first school?</option>
+            <option value="city">In what city were you born?</option>
+        </select><br/><br/>
+
+        <label for="q19">19. Security Answer:</label>
+        <input type="text" id="q19" name="securityAnswer" /><br/><br/>
+
+        <label for="q20">20. Favorite Color:</label>
+        <input type="color" id="q20" name="favoriteColor" /><br/><br/>
+
+        <label for="q21">21. Upload Profile Picture:</label>
+        <input type="file" id="q21" name="profilePic" /><br/><br/>
+
+        <label for="q22">22. About Yourself:</label><br/>
+        <textarea id="q22" name="about" rows="4" cols="50"></textarea><br/><br/>
+
+        <label for="q23">23. Agree to Terms and Conditions:</label>
+        <input type="checkbox" id="q23" name="terms" /><br/><br/>
+
+        <label for="q24">24. How did you hear about us?</label>
+        <select id="q24" name="referral">
+            <option value="">Select</option>
+            <option value="friend">Friend</option>
+            <option value="search">Search Engine</option>
+            <option value="ad">Advertisement</option>
+            <option value="other">Other</option>
+        </select><br/><br/>
+
+        <label for="q25">25. Additional Comments:</label><br/>
+        <textarea id="q25" name="comments" rows="3" cols="50"></textarea><br/><br/>
+
+        <button type="submit" id="submitBtn">Register</button>
+    </form>
+</body>
+</html>
