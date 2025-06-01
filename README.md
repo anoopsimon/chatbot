@@ -2,6 +2,7 @@
 
 An intelligent AI-powered tool that generates XPath expressions, CSS selectors, Selenium locator objects, and test scripts for web automation testing. Built specifically for QA teams and test automation engineers.
 
+![](./image.png)
 ## ✨ Features
 
 ### 🎯 Smart Locator Generation
